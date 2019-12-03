@@ -19,6 +19,8 @@ public class Main {
 	    System.out.printf("R="+Math.round(R));
 	    System.out.printf("\ns="+Math.round(s));
 	    
+	    
+	    
 
 	}
 
