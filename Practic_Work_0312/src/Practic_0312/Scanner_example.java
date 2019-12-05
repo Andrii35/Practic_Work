@@ -12,8 +12,8 @@ public class Scanner_example {
 //System.out.println("Enter you number:");
 //number=in.nextInt();
 //int temp=0;
-//temp=number%10;
-///*if(number>=1&&number<=10) {
+////temp=number%10;
+//if(number>=1&&number<=10) {
 //	temp=number;
 //}
 //else if(number>10&&number<100) {
@@ -24,7 +24,7 @@ public class Scanner_example {
 //	if(temp>10) {
 //		temp=temp%10;
 //	}
-//}*/
+//}
 //System.out.println(temp);
 //switch(temp) {
 //case 1:{
@@ -161,42 +161,42 @@ public class Scanner_example {
 //					
 				
 				// Ches  Queen and Step
-				int x=0;
-				int y=0;
-				int x1=0;
-				int y1=0;
-				boolean step=false;
-				Scanner in=new Scanner(System.in);
-				System.out.println("Enter Queen position");
-				System.out.println("Enter x: ");
-				x=in.nextInt();
-				System.out.println("Enter y: ");
-				y=in.nextInt();
-				System.out.println("Enter next Step position for Elefant");
-				System.out.println("Enter x1: ");
-				x1=in.nextInt();
-				System.out.println("Enter y1: ");
-				y1=in.nextInt();
-				if(x>8||y>8||x1>8||y1>8||x<1||y<1||x1<1||y1<1) {
-					System.out.println("Error");
-					return;
-				}
-				else {
-					for(int i=0;i<9;i++) {
-						if(x==x1+i&&y==y1+i||x==x1+i&&y==y1||x==x1&&y==y1+i) {
-							step=true;
-						}
-						if(x==x1-i&&y==y1-i||x==x1-i&&y==y1||x==x1&&y==y1-i) {
-							step=true;
-						}
-					}
-					}
-				if(step) {
-				System.out.println("Yes");
-				}
-				else {
-					System.out.println("No");
-				}
+//				int x=0;
+//				int y=0;
+//				int x1=0;
+//				int y1=0;
+//				boolean step=false;
+//				Scanner in=new Scanner(System.in);
+//				System.out.println("Enter Queen position");
+//				System.out.println("Enter x: ");
+//				x=in.nextInt();
+//				System.out.println("Enter y: ");
+//				y=in.nextInt();
+//				System.out.println("Enter next Step position for Elefant");
+//				System.out.println("Enter x1: ");
+//				x1=in.nextInt();
+//				System.out.println("Enter y1: ");
+//				y1=in.nextInt();
+//				if(x>8||y>8||x1>8||y1>8||x<1||y<1||x1<1||y1<1) {
+//					System.out.println("Error");
+//					return;
+//				}
+//				else {
+//					for(int i=0;i<9;i++) {
+//						if(x==x1+i&&y==y1+i||x==x1+i&&y==y1||x==x1&&y==y1+i) {
+//							step=true;
+//						}
+//						if(x==x1-i&&y==y1-i||x==x1-i&&y==y1||x==x1&&y==y1-i) {
+//							step=true;
+//						}
+//					}
+//					}
+//				if(step) {
+//				System.out.println("Yes");
+//				}
+//				else {
+//					System.out.println("No");
+//				}
 	}
 
 }

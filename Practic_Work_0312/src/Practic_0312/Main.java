@@ -1,6 +1,7 @@
 package Practic_0312;
 
 import java.lang.Math;// підключення бібліотек
+import java.util.LinkedList;;
 
 public class Main {
 
@@ -16,10 +17,15 @@ public class Main {
 	    
 	    //System.out.printf("R=%5.2f",R);
 	    //System.out.printf("\ns=%5.2f",s);
-	    System.out.printf("R="+Math.round(R));
-	    System.out.printf("\ns="+Math.round(s));
+	    //System.out.printf("R="+Math.round(R));
+	    //System.out.printf("\ns="+Math.round(s));
 	    
+	   LinkedList<Student>student=new LinkedList<Student>();
+	   for(int i=0;i<3;i++) {
+		   student.add(new Student("Ivan","Durenj", 22,"23.12.2019"));
+	   }
 	    
+	   student.getFirst().printStudent();
 	    
 
 	}
